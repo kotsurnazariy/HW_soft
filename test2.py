@@ -1,4 +1,5 @@
-four_int = [3, 5, 6, 8]
-print ('sum =', four_int[0] * four_int[1] * four_int[2] * four_int[3])
-
-print (four_int[-1], four_int[-2], four_int[-3], four_int[-4])
+my_list = list(str(3948))
+print ('product: ', int(my_list[0]) * int(my_list[1]) * int(my_list[2]) * int(my_list[3]))
+print('reverse: ', ' '.join(my_list)[::-1])
+my_list.sort()
+print (my_list)
