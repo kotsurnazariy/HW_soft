@@ -1,8 +1,8 @@
 #1
-how_much_num = [int(input('Enter list element: ')) for x in range(int(input ('Enter the number of numbers: ')))]
-print (how_much_num)
-print (max(how_much_num))
-print (min(how_much_num))
+# how_much_num = [int(input('Enter list element: ')) for x in range(int(input ('Enter the number of numbers: ')))]
+# print (how_much_num)
+# print (max(how_much_num))
+# print (min(how_much_num))
 
 #2
 # a = [x for x in range(1, 11) if x % 2 == 0]
@@ -11,3 +11,15 @@ print (min(how_much_num))
 # print(a)
 # a = [x for x in range(1, 11) if x % 3 != 0 and x % 2 != 1]
 # print(a)
+
+#3
+# a = int(input ('Enter any-thing number: '))
+# num = 0
+# b = []
+# dob = 1
+# while num < a:
+#     num += 1
+#     b.append(num)
+# for x in b:
+#     dob *= x
+# print ('Factorial:', dob)
