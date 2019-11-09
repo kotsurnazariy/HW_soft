@@ -51,3 +51,20 @@
 #     print(temp)
 
 #6
+# my_list = ['one', 'two', 'three', 'four']
+# i = 0
+# for my_list[i] in my_list:
+#     print(my_list[i])
+#     i += 1
+
+#7
+# my_list = ['one', 'two', 'three', 'four']
+# i = 0
+# a = 0
+# for my_list[i] in my_list:
+#     for a in my_list[i]:
+#         print(a, end="#")
+#     i += 1
+
+#8
+#num = 20#input('Enter number: ')
