@@ -23,3 +23,13 @@
 # for x in b:
 #     dob *= x
 # print ('Factorial:', dob)
+
+#4
+# password = input ('Enter your password: ')
+# while password == '1111':
+#     print ('Hello Nazar')
+#     break
+# else:
+#     print ('You put bed password')
+
+#5
