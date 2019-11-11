@@ -38,12 +38,11 @@
 #     i += 1
 
 #5
-# n = input("Enter any-think number: ")
+# n = input("Enter any-thing number: ")
 # n = int(n)
 # fib_1 = 0
 # fib_2 = 1
 # print(fib_1)
-# print(fib_2)
 # while fib_2 <= n:
 #     temp = fib_2
 #     fib_2 = fib_1 + fib_2
