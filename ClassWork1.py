@@ -67,4 +67,20 @@
 #     i += 1
 
 #8
-#num = 20#input('Enter number: ')
+
+
+#9
+# import random
+# num_rund = random.randint(100, 1000)
+# print(num_rund)
+# list_rund = list(str(num_rund))
+# print(list_rund)
+# print(max(list_rund))
+
+#10
+# word = input('Enter word: ')
+# word_polin = word[::-1]
+# if word == word_polin:
+#     print('Polinom:', word)
+# else:
+#     print("Not polinom:", word)
