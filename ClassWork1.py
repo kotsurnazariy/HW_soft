@@ -67,7 +67,6 @@
 
 #8
 
-
 #9
 # import random
 # num_rund = random.randint(100, 1000)
