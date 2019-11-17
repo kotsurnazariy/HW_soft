@@ -1,7 +1,13 @@
 #1
-def mean(*numbers):
-    return float(sum(numbers)) / max(len(numbers)
-mean([1, 2, 3, 4])
+def fl(lst):
+    s = 0
+    i = 0
+    for i in lst:
+    s += i
+    return print(s / len(lst))
+fl([2, 4, 6])
+
+
 #2
 # def modul (b):
 #     """Modul number"""
@@ -26,13 +32,13 @@ mean([1, 2, 3, 4])
 #4
 
 #5
-# def suma_num (a):
-#     i = 1
-#     while i <= a:
-#         print(i)
-        
-#         i += 1
-#         c = [i].append
-#         print(c)
-#     else:
-#         print('finish')
+def suma_num (a):
+    i = 1
+    while i <= a:
+        print(i)
+        i += 1
+        c = [i].append
+        print(c)
+    else:
+        print('finish')
+suma_num(5)
