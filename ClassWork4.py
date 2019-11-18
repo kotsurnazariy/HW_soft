@@ -8,12 +8,15 @@
 #         print ('You right this:', num_rund)
 #         break
 #     elif user < num_rund:
-#         print ('try else')
-#     elif user > num_rund:
-#         print ('try else')
+#         print ('Try agein this number very small:', user)
+#     elif user > num_rund and user < 101:
+#         print ('Try agein this number very big:', user)
+#     else:
+#         print('Enter only number 1 - 100')
 
 #2
-# import math
+# from math import pi
+# from math import pow
 # while True:
 #     user = input('What you want count? 1-Площа прямокутника, 2-Площа трикутника, 3-Площа кола 4-Вихід. Enter 1, 2, 3 or 4: ')
 #     if user == '1':
@@ -26,7 +29,7 @@
 #         print ('You result:', 0.5*h*a)
 #     elif user == '3':
 #         r = float(input('Enter r = '))
-#         print ('You result:', math.pi * pow(r,2))
+#         print ('You result:', pi * pow(r,2))
 #     elif user == '4':
 #         break
 #     else:
