@@ -17,16 +17,16 @@
 # while True:
 #     user = input('What you want count? 1-Площа прямокутника, 2-Площа трикутника, 3-Площа кола 4-Вихід. Enter 1, 2, 3 or 4: ')
 #     if user == '1':
-#         x = float(input('Enter x='))
-#         y = float(input('Enter y='))
+#         x = float(input('Enter x = '))
+#         y = float(input('Enter y = '))
 #         print ('You result:', x*y)
 #     elif user == '2':
-#         h = float(input('Enter h='))
-#         a = float(input('Enter a='))
+#         h = float(input('Enter h = '))
+#         a = float(input('Enter a = '))
 #         print ('You result:', 0.5*h*a)
 #     elif user == '3':
-#         r = float(input('Enter r='))
-#         print ('You result:', math.pi*r*2)
+#         r = float(input('Enter r = '))
+#         print ('You result:', math.pi * pow(r,2))
 #     elif user == '4':
 #         break
 #     else:
